@@ -4,6 +4,7 @@ from db import DBs
 import json
 
 
+
 def setup_sys_prompt(dbs):
     return dbs.identity['setup'] + '\nUseful to know:\n' + dbs.identity['philosophy']
 
